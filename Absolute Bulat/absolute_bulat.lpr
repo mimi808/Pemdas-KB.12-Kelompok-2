@@ -2,14 +2,18 @@ program absolute_bulat;
 uses crt;
 const x = 12;
       y = 13;
-var hasil : integer;
+var hasil, hasilAbs : integer;
 begin
   clrscr;
-  hasil := x - y;
-  writeln(x, ' - ', y, ' = ', hasil);
+  writeln('==============================================');
+  writeln('Kelompok 2 [Dino, Dzaky, Fahmi, Fahrul, Fajri]');
+  writeln('==============================================');
 
-  hasil := ABS(hasil);
-  writeln('Penggunaan ABS dari ', x, ' - ', y, ' = ', hasil);
+  hasil := x - y;
+  hasilAbs := ABS(hasil);
+
+  writeln(x, ' - ', y, ' = ', hasil);
+  writeln('Penggunaan ABS dari ', x, ' - ', y, ' = ', hasilAbs);
   write('Press any key to continue...'); readln;
 end.
 

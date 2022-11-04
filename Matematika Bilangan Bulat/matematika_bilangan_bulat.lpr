@@ -4,10 +4,11 @@ var bilanganSatu, bilanganDua, hasil : integer;
     operasiMTK: char;
     operatorMTK : string;
 begin
-     clrscr;
-     writeln('===========================');
+     clrscr();
+     writeln('==============================================');
      writeln('Operasi Matematika Bilangan Bulat');
-     writeln('===========================');
+     writeln('Kelompok 2 [Dino, Dzaky, Fahmi, Fahrul, Fajri]');
+     writeln('==============================================');
      writeln('1. Penjumlahan dengan +');
      writeln('2. Pengurangan dengan -');
      writeln('3. Perkalian dengan *');
@@ -45,6 +46,6 @@ begin
 
      writeln();
      writeln(bilanganSatu, ' ', operatorMTK, ' ', bilanganDua, ' = ', hasil);
-     write('Press any key to continue...'); readln;
+     write('Press any key to continue...'); readln();
 end.
 
